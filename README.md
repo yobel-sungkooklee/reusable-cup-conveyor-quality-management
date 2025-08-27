@@ -184,7 +184,13 @@ Apache-2.0 License (same as original IFRA project)
 
 ## 📞 Contact
 
-For project-related inquiries, please contact us through GitHub Issues.
+For project-related inquiries, please feel free to reach out through any of the following channels:
+
+- 🔗 **LinkedIn**: [Yobel Sungkook Lee](www.linkedin.com/in/yobel-sungkook-lee-414665362)
+- 🐙 **GitHub**: [Profile](https://github.com/yobel-sungkooklee)
+- 📧 **Email**: yobellee@g.skku.edu
+
+*I'm always open to collaboration, feedback, and interesting discussions about robotics, automation, and computer vision!*
 
 ---
 
