@@ -49,6 +49,30 @@
 
 <br />
 
+## 🎥 DEMO VIDEOS
+
+This project extends the IFRA_ConveyorBelt system to create a comprehensive reusable cup quality management simulation in a ROS2-Gazebo environment. The enhanced system utilizes the original conveyor belt plugin as a foundation, but adds specialized components for cup handling, quality inspection, and automated sorting. The simulation environment includes a complete Gazebo package where all components can be tested and verified with realistic cup models and inspection systems.
+
+**I have extended this system with additional features for reusable cup quality management:**
+
+<div align="center">
+
+### 🏭 **Basic Version** - Quality Control Process
+[![Basic Version Demo](https://img.youtube.com/vi/RUVIz0vWDCw/0.jpg)](https://www.youtube.com/watch?v=RUVIz0vWDCw)
+
+**Features:** Automatic loading • QR scanning • Visual inspection • Real-time monitoring
+
+---
+
+### 🏭 **Complete Version** - Full Automated System  
+[![Complete Version Demo](https://img.youtube.com/vi/-cEOExvV-Og/0.jpg)](https://www.youtube.com/watch?v=-cEOExvV-Og)
+
+**Features:** Complete workflow • Defect detection • Intelligent sorting (Rewash/Discard)
+
+</div>
+
+<br />
+
 ## 🏭 ABOUT
 
 ### Reusable Cup Quality Management System
