@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<sdf version="1.7">
+  <model name="inspection_monitor_nodefect">
+    <static>true</static>
+    <link name="monitor_link">
+      
+      <!-- GOOD 텍스트 -->
+      <visual name="nodefect_text">
+        <pose>0 0 0 1.5708 0 1.5708</pose>
+        <geometry>
+          <mesh>
+            <uri>model://inspection_monitor_nodefect/meshes/NoDefect_Text_ui.stl</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0 1 0 1</ambient> <!-- 초록색 -->
+          <diffuse>0 1 0 1</diffuse>
+        </material>
+      </visual>
+
+      <!-- 컵 이미지 -->
+      <visual name="cup_image">
+        <pose>0 0 0 1.5708 0 1.5708</pose>
+        <geometry>
+          <mesh>
+            <uri>model://inspection_monitor_nodefect/meshes/Cup_ui.stl</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+        </material>
+      </visual>
+
+    </link>
+  </model>
+</sdf>

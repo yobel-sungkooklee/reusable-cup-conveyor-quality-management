@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<robot name="plastic_cup">
+  <link name="cup_link">
+    <visual>
+      <geometry>
+        <!-- <mesh filename="model://plastic_cup/meshes/plastic_cup.dae" scale="1 1 0.5"/> -->
+        <mesh filename="model://plastic_cup/meshes/plastic_cup.stl" scale="1 1 0.5"/>        
+      </geometry>
+      <material name="SkyBlue">
+        <ambient>1.0 1.0 1.0 1.0</ambient>
+        <diffuse>1.0 1.0 1.0 1.0</diffuse>
+        <specular>0.0 0.0 0.0 1.0</specular>
+        <emissive>0.0 0.0 0.0 1.0</emissive>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <!-- <mesh filename="model://plastic_cup/meshes/plastic_cup.dae" scale="1 1 0.5"/>         -->
+        <mesh filename="model://plastic_cup/meshes/plastic_cup.stl" scale="1 1 0.5"/>        
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.05"/>
+      <inertia
+        ixx="1e-5"
+        ixy="0.0"
+        ixz="0.0"
+        iyy="1e-5"
+        iyz="0.0"
+        izz="1e-5"/>
+    </inertial>
+  </link>
+
+  <!-- Gazebo 전용 색상 적용 -->
+  <gazebo reference="cup_link">
+    <material>Gazebo/White</material>
+  </gazebo>  
+</robot>
