@@ -142,6 +142,9 @@ Yobel_Conveyor/
 ## 📚 BASED ON
 
 This project is based on the [IFRA_ConveyorBelt](https://github.com/IFRA-Cranfield/IFRA_ConveyorBelt) project.
+### Changes
+In addition to extending the conveyor belt, I have independently designed and implemented the Loader, QR scanner system, vision inspection system, defect monitoring display, rewash sorting bin, and discard sorting bin.  
+Furthermore, I have developed and integrated the software modules required to operate and control each of these components within the overall system.
 
 ## �� License
 
